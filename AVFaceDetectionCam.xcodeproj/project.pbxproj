@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0A911776452A845B995E2C /* Pods_AVFaceDetectionCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EDB845EE2711038190FB84 /* Pods_AVFaceDetectionCam.framework */; };
+		411067D026D7BF9B00F6DE42 /* AVFaceDetectionCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411067C626D7BF9B00F6DE42 /* AVFaceDetectionCam.framework */; };
+		411067D726D7BF9B00F6DE42 /* AVFaceDetectionCam.h in Headers */ = {isa = PBXBuildFile; fileRef = 411067C926D7BF9B00F6DE42 /* AVFaceDetectionCam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4110680726D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E126D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift */; };
+		4110680826D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E126D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift */; };
+		4110680926D7BFD200F6DE42 /* CHeaderUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E426D7BFD200F6DE42 /* CHeaderUILabel.swift */; };
+		4110680A26D7BFD200F6DE42 /* CHeaderUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E426D7BFD200F6DE42 /* CHeaderUILabel.swift */; };
+		4110680B26D7BFD200F6DE42 /* CBodyUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E526D7BFD200F6DE42 /* CBodyUILabel.swift */; };
+		4110680C26D7BFD200F6DE42 /* CBodyUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E526D7BFD200F6DE42 /* CBodyUILabel.swift */; };
+		4110680D26D7BFD200F6DE42 /* CUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E726D7BFD200F6DE42 /* CUIButton.swift */; };
+		4110680E26D7BFD200F6DE42 /* CUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E726D7BFD200F6DE42 /* CUIButton.swift */; };
+		4110680F26D7BFD200F6DE42 /* CircularUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E826D7BFD200F6DE42 /* CircularUIButton.swift */; };
+		4110681026D7BFD200F6DE42 /* CircularUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E826D7BFD200F6DE42 /* CircularUIButton.swift */; };
+		4110681126D7BFD200F6DE42 /* CameraCaptureButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E926D7BFD200F6DE42 /* CameraCaptureButtonView.swift */; };
+		4110681226D7BFD200F6DE42 /* CameraCaptureButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067E926D7BFD200F6DE42 /* CameraCaptureButtonView.swift */; };
+		4110681326D7BFD200F6DE42 /* RequestCameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EB26D7BFD200F6DE42 /* RequestCameraPermissionView.swift */; };
+		4110681426D7BFD200F6DE42 /* RequestCameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EB26D7BFD200F6DE42 /* RequestCameraPermissionView.swift */; };
+		4110681526D7BFD200F6DE42 /* MissingFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EC26D7BFD200F6DE42 /* MissingFaceView.swift */; };
+		4110681626D7BFD200F6DE42 /* MissingFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EC26D7BFD200F6DE42 /* MissingFaceView.swift */; };
+		4110681726D7BFD200F6DE42 /* CameraUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067ED26D7BFD200F6DE42 /* CameraUIView.swift */; };
+		4110681826D7BFD200F6DE42 /* CameraUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067ED26D7BFD200F6DE42 /* CameraUIView.swift */; };
+		4110681926D7BFD200F6DE42 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EE26D7BFD200F6DE42 /* FaceView.swift */; };
+		4110681A26D7BFD200F6DE42 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067EE26D7BFD200F6DE42 /* FaceView.swift */; };
+		4110681B26D7BFD200F6DE42 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F026D7BFD200F6DE42 /* TooltipView.swift */; };
+		4110681C26D7BFD200F6DE42 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F026D7BFD200F6DE42 /* TooltipView.swift */; };
+		4110681D26D7BFD200F6DE42 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F126D7BFD200F6DE42 /* TriangleView.swift */; };
+		4110681E26D7BFD200F6DE42 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F126D7BFD200F6DE42 /* TriangleView.swift */; };
+		4110681F26D7BFD200F6DE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411067F326D7BFD200F6DE42 /* Assets.xcassets */; };
+		4110682026D7BFD200F6DE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411067F326D7BFD200F6DE42 /* Assets.xcassets */; };
+		4110682126D7BFD200F6DE42 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F526D7BFD200F6DE42 /* UIImageView+Ext.swift */; };
+		4110682226D7BFD200F6DE42 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F526D7BFD200F6DE42 /* UIImageView+Ext.swift */; };
+		4110682326D7BFD200F6DE42 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F626D7BFD200F6DE42 /* UIImage+Ext.swift */; };
+		4110682426D7BFD200F6DE42 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F626D7BFD200F6DE42 /* UIImage+Ext.swift */; };
+		4110682526D7BFD200F6DE42 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F726D7BFD200F6DE42 /* UIViewController+Ext.swift */; };
+		4110682626D7BFD200F6DE42 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F726D7BFD200F6DE42 /* UIViewController+Ext.swift */; };
+		4110682726D7BFD200F6DE42 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F826D7BFD200F6DE42 /* UIView+Ext.swift */; };
+		4110682826D7BFD200F6DE42 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067F826D7BFD200F6DE42 /* UIView+Ext.swift */; };
+		4110682926D7BFD300F6DE42 /* AVFaceDetectionCamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067FA26D7BFD200F6DE42 /* AVFaceDetectionCamVC.swift */; };
+		4110682A26D7BFD300F6DE42 /* AVFaceDetectionCamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411067FA26D7BFD200F6DE42 /* AVFaceDetectionCamVC.swift */; };
+		4110682C26D7BFD300F6DE42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 411067FB26D7BFD200F6DE42 /* Info.plist */; };
+		4110682D26D7BFD300F6DE42 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 411067FD26D7BFD200F6DE42 /* JosefinSans-SemiBold.ttf */; };
+		4110682E26D7BFD300F6DE42 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 411067FD26D7BFD200F6DE42 /* JosefinSans-SemiBold.ttf */; };
+		4110682F26D7BFD300F6DE42 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 411067FE26D7BFD200F6DE42 /* JosefinSans-Regular.ttf */; };
+		4110683026D7BFD300F6DE42 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 411067FE26D7BFD200F6DE42 /* JosefinSans-Regular.ttf */; };
+		4110683126D7BFD300F6DE42 /* RequestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680026D7BFD200F6DE42 /* RequestsHelper.swift */; };
+		4110683226D7BFD300F6DE42 /* RequestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680026D7BFD200F6DE42 /* RequestsHelper.swift */; };
+		4110683326D7BFD300F6DE42 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680126D7BFD200F6DE42 /* Global.swift */; };
+		4110683426D7BFD300F6DE42 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680126D7BFD200F6DE42 /* Global.swift */; };
+		4110683526D7BFD300F6DE42 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680226D7BFD200F6DE42 /* UIHelper.swift */; };
+		4110683626D7BFD300F6DE42 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680226D7BFD200F6DE42 /* UIHelper.swift */; };
+		4110683726D7BFD300F6DE42 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680326D7BFD200F6DE42 /* Fonts.swift */; };
+		4110683826D7BFD300F6DE42 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680326D7BFD200F6DE42 /* Fonts.swift */; };
+		4110683926D7BFD300F6DE42 /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680426D7BFD200F6DE42 /* FaceDetectionManager.swift */; };
+		4110683A26D7BFD300F6DE42 /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680426D7BFD200F6DE42 /* FaceDetectionManager.swift */; };
+		4110683B26D7BFD300F6DE42 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680526D7BFD200F6DE42 /* CameraManager.swift */; };
+		4110683C26D7BFD300F6DE42 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110680526D7BFD200F6DE42 /* CameraManager.swift */; };
+		414FB30026D7C4FC00E6D22C /* AVFaceDetectionCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB2FF26D7C4FC00E6D22C /* AVFaceDetectionCamTests.swift */; };
+		45B64857A2D1BB86DEBB2E7E /* Pods_AVFaceDetectionCamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DF2023EB4F5D52240CEB8B /* Pods_AVFaceDetectionCamTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411067D126D7BF9B00F6DE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411067BD26D7BF9B00F6DE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411067C526D7BF9B00F6DE42;
+			remoteInfo = AVFaceDetectionCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF2023EB4F5D52240CEB8B /* Pods_AVFaceDetectionCamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFaceDetectionCamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D5530C1AFBE63E0566B422 /* Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.debug.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCam-AVFaceDetectionCamTests/Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		411067C626D7BF9B00F6DE42 /* AVFaceDetectionCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVFaceDetectionCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411067C926D7BF9B00F6DE42 /* AVFaceDetectionCam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFaceDetectionCam.h; sourceTree = "<group>"; };
+		411067CA26D7BF9B00F6DE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411067CF26D7BF9B00F6DE42 /* AVFaceDetectionCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFaceDetectionCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411067D626D7BF9B00F6DE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411067E126D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFaceDetectionCamViewModel.swift; sourceTree = "<group>"; };
+		411067E426D7BFD200F6DE42 /* CHeaderUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHeaderUILabel.swift; sourceTree = "<group>"; };
+		411067E526D7BFD200F6DE42 /* CBodyUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBodyUILabel.swift; sourceTree = "<group>"; };
+		411067E726D7BFD200F6DE42 /* CUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIButton.swift; sourceTree = "<group>"; };
+		411067E826D7BFD200F6DE42 /* CircularUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularUIButton.swift; sourceTree = "<group>"; };
+		411067E926D7BFD200F6DE42 /* CameraCaptureButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCaptureButtonView.swift; sourceTree = "<group>"; };
+		411067EB26D7BFD200F6DE42 /* RequestCameraPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCameraPermissionView.swift; sourceTree = "<group>"; };
+		411067EC26D7BFD200F6DE42 /* MissingFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingFaceView.swift; sourceTree = "<group>"; };
+		411067ED26D7BFD200F6DE42 /* CameraUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraUIView.swift; sourceTree = "<group>"; };
+		411067EE26D7BFD200F6DE42 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		411067F026D7BFD200F6DE42 /* TooltipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		411067F126D7BFD200F6DE42 /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		411067F326D7BFD200F6DE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411067F526D7BFD200F6DE42 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		411067F626D7BFD200F6DE42 /* UIImage+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		411067F726D7BFD200F6DE42 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		411067F826D7BFD200F6DE42 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		411067FA26D7BFD200F6DE42 /* AVFaceDetectionCamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVFaceDetectionCamVC.swift; sourceTree = "<group>"; };
+		411067FB26D7BFD200F6DE42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../repo/fdfs/AVFaceDetectionCam/Info.plist; sourceTree = "<group>"; };
+		411067FD26D7BFD200F6DE42 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		411067FE26D7BFD200F6DE42 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		4110680026D7BFD200F6DE42 /* RequestsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsHelper.swift; sourceTree = "<group>"; };
+		4110680126D7BFD200F6DE42 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4110680226D7BFD200F6DE42 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		4110680326D7BFD200F6DE42 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		4110680426D7BFD200F6DE42 /* FaceDetectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionManager.swift; sourceTree = "<group>"; };
+		4110680526D7BFD200F6DE42 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		414FB2FF26D7C4FC00E6D22C /* AVFaceDetectionCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFaceDetectionCamTests.swift; sourceTree = "<group>"; };
+		68EDB845EE2711038190FB84 /* Pods_AVFaceDetectionCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFaceDetectionCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749BE40BD8DD9922504B91FA /* Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.release.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCam-AVFaceDetectionCamTests/Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A4FC45B2B810F727327A4B /* Pods-AVFaceDetectionCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCam.release.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCam/Pods-AVFaceDetectionCam.release.xcconfig"; sourceTree = "<group>"; };
+		D4C9E7E79C9CFD3B3067403B /* Pods-AVFaceDetectionCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCamTests.release.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4E47480909D11C39D6420C4 /* Pods-AVFaceDetectionCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCam.debug.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCam/Pods-AVFaceDetectionCam.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD43EC0F6A87DFB52555D71 /* Pods-AVFaceDetectionCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFaceDetectionCamTests.debug.xcconfig"; path = "Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411067C326D7BF9B00F6DE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0A911776452A845B995E2C /* Pods_AVFaceDetectionCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411067CC26D7BF9B00F6DE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411067D026D7BF9B00F6DE42 /* AVFaceDetectionCam.framework in Frameworks */,
+				45B64857A2D1BB86DEBB2E7E /* Pods_AVFaceDetectionCamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093A0E151B3D578B33E6131D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4E47480909D11C39D6420C4 /* Pods-AVFaceDetectionCam.debug.xcconfig */,
+				D4A4FC45B2B810F727327A4B /* Pods-AVFaceDetectionCam.release.xcconfig */,
+				24D5530C1AFBE63E0566B422 /* Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.debug.xcconfig */,
+				749BE40BD8DD9922504B91FA /* Pods-AVFaceDetectionCam-AVFaceDetectionCamTests.release.xcconfig */,
+				ECD43EC0F6A87DFB52555D71 /* Pods-AVFaceDetectionCamTests.debug.xcconfig */,
+				D4C9E7E79C9CFD3B3067403B /* Pods-AVFaceDetectionCamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		411067BC26D7BF9B00F6DE42 = {
+			isa = PBXGroup;
+			children = (
+				411067C826D7BF9B00F6DE42 /* AVFaceDetectionCam */,
+				411067D326D7BF9B00F6DE42 /* AVFaceDetectionCamTests */,
+				411067C726D7BF9B00F6DE42 /* Products */,
+				093A0E151B3D578B33E6131D /* Pods */,
+				DB9717C52E024DD9C9BEB62E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		411067C726D7BF9B00F6DE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411067C626D7BF9B00F6DE42 /* AVFaceDetectionCam.framework */,
+				411067CF26D7BF9B00F6DE42 /* AVFaceDetectionCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411067C826D7BF9B00F6DE42 /* AVFaceDetectionCam */ = {
+			isa = PBXGroup;
+			children = (
+				411067F926D7BFD200F6DE42 /* Controllers */,
+				411067F426D7BFD200F6DE42 /* Extentions */,
+				411067F226D7BFD200F6DE42 /* Extras */,
+				411067FC26D7BFD200F6DE42 /* Fonts */,
+				411067FF26D7BFD200F6DE42 /* Helpers */,
+				411067FB26D7BFD200F6DE42 /* Info.plist */,
+				4110680626D7BFD200F6DE42 /* Models */,
+				411067E026D7BFD200F6DE42 /* ViewModels */,
+				411067E226D7BFD200F6DE42 /* Views */,
+				411067C926D7BF9B00F6DE42 /* AVFaceDetectionCam.h */,
+				411067CA26D7BF9B00F6DE42 /* Info.plist */,
+			);
+			path = AVFaceDetectionCam;
+			sourceTree = "<group>";
+		};
+		411067D326D7BF9B00F6DE42 /* AVFaceDetectionCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				411067D626D7BF9B00F6DE42 /* Info.plist */,
+				414FB2FF26D7C4FC00E6D22C /* AVFaceDetectionCamTests.swift */,
+			);
+			path = AVFaceDetectionCamTests;
+			sourceTree = "<group>";
+		};
+		411067E026D7BFD200F6DE42 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				411067E126D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		411067E226D7BFD200F6DE42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				411067E326D7BFD200F6DE42 /* UILabel */,
+				411067E626D7BFD200F6DE42 /* UIButton */,
+				411067EA26D7BFD200F6DE42 /* UIView */,
+				411067EF26D7BFD200F6DE42 /* Tooltips */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		411067E326D7BFD200F6DE42 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				411067E426D7BFD200F6DE42 /* CHeaderUILabel.swift */,
+				411067E526D7BFD200F6DE42 /* CBodyUILabel.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		411067E626D7BFD200F6DE42 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				411067E726D7BFD200F6DE42 /* CUIButton.swift */,
+				411067E826D7BFD200F6DE42 /* CircularUIButton.swift */,
+				411067E926D7BFD200F6DE42 /* CameraCaptureButtonView.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		411067EA26D7BFD200F6DE42 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				411067EB26D7BFD200F6DE42 /* RequestCameraPermissionView.swift */,
+				411067EC26D7BFD200F6DE42 /* MissingFaceView.swift */,
+				411067ED26D7BFD200F6DE42 /* CameraUIView.swift */,
+				411067EE26D7BFD200F6DE42 /* FaceView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		411067EF26D7BFD200F6DE42 /* Tooltips */ = {
+			isa = PBXGroup;
+			children = (
+				411067F026D7BFD200F6DE42 /* TooltipView.swift */,
+				411067F126D7BFD200F6DE42 /* TriangleView.swift */,
+			);
+			path = Tooltips;
+			sourceTree = "<group>";
+		};
+		411067F226D7BFD200F6DE42 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				411067F326D7BFD200F6DE42 /* Assets.xcassets */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		411067F426D7BFD200F6DE42 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				411067F526D7BFD200F6DE42 /* UIImageView+Ext.swift */,
+				411067F626D7BFD200F6DE42 /* UIImage+Ext.swift */,
+				411067F726D7BFD200F6DE42 /* UIViewController+Ext.swift */,
+				411067F826D7BFD200F6DE42 /* UIView+Ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		411067F926D7BFD200F6DE42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				411067FA26D7BFD200F6DE42 /* AVFaceDetectionCamVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		411067FC26D7BFD200F6DE42 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				411067FD26D7BFD200F6DE42 /* JosefinSans-SemiBold.ttf */,
+				411067FE26D7BFD200F6DE42 /* JosefinSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		411067FF26D7BFD200F6DE42 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4110680026D7BFD200F6DE42 /* RequestsHelper.swift */,
+				4110680126D7BFD200F6DE42 /* Global.swift */,
+				4110680226D7BFD200F6DE42 /* UIHelper.swift */,
+				4110680326D7BFD200F6DE42 /* Fonts.swift */,
+				4110680426D7BFD200F6DE42 /* FaceDetectionManager.swift */,
+				4110680526D7BFD200F6DE42 /* CameraManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4110680626D7BFD200F6DE42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB9717C52E024DD9C9BEB62E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68EDB845EE2711038190FB84 /* Pods_AVFaceDetectionCam.framework */,
+				02DF2023EB4F5D52240CEB8B /* Pods_AVFaceDetectionCamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		411067C126D7BF9B00F6DE42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411067D726D7BF9B00F6DE42 /* AVFaceDetectionCam.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		411067C526D7BF9B00F6DE42 /* AVFaceDetectionCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411067DA26D7BF9B00F6DE42 /* Build configuration list for PBXNativeTarget "AVFaceDetectionCam" */;
+			buildPhases = (
+				565684030D827A7FF2BA206B /* [CP] Check Pods Manifest.lock */,
+				411067C126D7BF9B00F6DE42 /* Headers */,
+				411067C226D7BF9B00F6DE42 /* Sources */,
+				411067C326D7BF9B00F6DE42 /* Frameworks */,
+				411067C426D7BF9B00F6DE42 /* Resources */,
+				44C221E37BDAB63DB3BED2C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFaceDetectionCam;
+			productName = AVFaceDetectionCam;
+			productReference = 411067C626D7BF9B00F6DE42 /* AVFaceDetectionCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		411067CE26D7BF9B00F6DE42 /* AVFaceDetectionCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411067DD26D7BF9B00F6DE42 /* Build configuration list for PBXNativeTarget "AVFaceDetectionCamTests" */;
+			buildPhases = (
+				CEBA1DDE7E7DA6F2ACFC9E08 /* [CP] Check Pods Manifest.lock */,
+				411067CB26D7BF9B00F6DE42 /* Sources */,
+				411067CC26D7BF9B00F6DE42 /* Frameworks */,
+				411067CD26D7BF9B00F6DE42 /* Resources */,
+				68A4746E98F1887E29090430 /* [CP] Embed Pods Frameworks */,
+				C722245003312C542E2FE485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411067D226D7BF9B00F6DE42 /* PBXTargetDependency */,
+			);
+			name = AVFaceDetectionCamTests;
+			productName = AVFaceDetectionCamTests;
+			productReference = 411067CF26D7BF9B00F6DE42 /* AVFaceDetectionCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411067BD26D7BF9B00F6DE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					411067C526D7BF9B00F6DE42 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					411067CE26D7BF9B00F6DE42 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 411067C026D7BF9B00F6DE42 /* Build configuration list for PBXProject "AVFaceDetectionCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411067BC26D7BF9B00F6DE42;
+			productRefGroup = 411067C726D7BF9B00F6DE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411067C526D7BF9B00F6DE42 /* AVFaceDetectionCam */,
+				411067CE26D7BF9B00F6DE42 /* AVFaceDetectionCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411067C426D7BF9B00F6DE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110682F26D7BFD300F6DE42 /* JosefinSans-Regular.ttf in Resources */,
+				4110682D26D7BFD300F6DE42 /* JosefinSans-SemiBold.ttf in Resources */,
+				4110681F26D7BFD200F6DE42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411067CD26D7BF9B00F6DE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110682C26D7BFD300F6DE42 /* Info.plist in Resources */,
+				4110683026D7BFD300F6DE42 /* JosefinSans-Regular.ttf in Resources */,
+				4110682E26D7BFD300F6DE42 /* JosefinSans-SemiBold.ttf in Resources */,
+				4110682026D7BFD200F6DE42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44C221E37BDAB63DB3BED2C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCam/Pods-AVFaceDetectionCam-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCam/Pods-AVFaceDetectionCam-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCam/Pods-AVFaceDetectionCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565684030D827A7FF2BA206B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVFaceDetectionCam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A4746E98F1887E29090430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C722245003312C542E2FE485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFaceDetectionCamTests/Pods-AVFaceDetectionCamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBA1DDE7E7DA6F2ACFC9E08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVFaceDetectionCamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411067C226D7BF9B00F6DE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110682726D7BFD200F6DE42 /* UIView+Ext.swift in Sources */,
+				4110680B26D7BFD200F6DE42 /* CBodyUILabel.swift in Sources */,
+				4110680726D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift in Sources */,
+				4110683526D7BFD300F6DE42 /* UIHelper.swift in Sources */,
+				4110682526D7BFD200F6DE42 /* UIViewController+Ext.swift in Sources */,
+				4110683326D7BFD300F6DE42 /* Global.swift in Sources */,
+				4110680926D7BFD200F6DE42 /* CHeaderUILabel.swift in Sources */,
+				4110683726D7BFD300F6DE42 /* Fonts.swift in Sources */,
+				4110682926D7BFD300F6DE42 /* AVFaceDetectionCamVC.swift in Sources */,
+				4110683B26D7BFD300F6DE42 /* CameraManager.swift in Sources */,
+				4110681326D7BFD200F6DE42 /* RequestCameraPermissionView.swift in Sources */,
+				4110681526D7BFD200F6DE42 /* MissingFaceView.swift in Sources */,
+				4110680F26D7BFD200F6DE42 /* CircularUIButton.swift in Sources */,
+				4110681726D7BFD200F6DE42 /* CameraUIView.swift in Sources */,
+				4110682326D7BFD200F6DE42 /* UIImage+Ext.swift in Sources */,
+				4110681B26D7BFD200F6DE42 /* TooltipView.swift in Sources */,
+				4110682126D7BFD200F6DE42 /* UIImageView+Ext.swift in Sources */,
+				4110681126D7BFD200F6DE42 /* CameraCaptureButtonView.swift in Sources */,
+				4110680D26D7BFD200F6DE42 /* CUIButton.swift in Sources */,
+				4110683926D7BFD300F6DE42 /* FaceDetectionManager.swift in Sources */,
+				4110681D26D7BFD200F6DE42 /* TriangleView.swift in Sources */,
+				4110681926D7BFD200F6DE42 /* FaceView.swift in Sources */,
+				4110683126D7BFD300F6DE42 /* RequestsHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411067CB26D7BF9B00F6DE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414FB30026D7C4FC00E6D22C /* AVFaceDetectionCamTests.swift in Sources */,
+				4110682826D7BFD200F6DE42 /* UIView+Ext.swift in Sources */,
+				4110682426D7BFD200F6DE42 /* UIImage+Ext.swift in Sources */,
+				4110682A26D7BFD300F6DE42 /* AVFaceDetectionCamVC.swift in Sources */,
+				4110681026D7BFD200F6DE42 /* CircularUIButton.swift in Sources */,
+				4110680E26D7BFD200F6DE42 /* CUIButton.swift in Sources */,
+				4110683A26D7BFD300F6DE42 /* FaceDetectionManager.swift in Sources */,
+				4110681E26D7BFD200F6DE42 /* TriangleView.swift in Sources */,
+				4110681C26D7BFD200F6DE42 /* TooltipView.swift in Sources */,
+				4110680C26D7BFD200F6DE42 /* CBodyUILabel.swift in Sources */,
+				4110683826D7BFD300F6DE42 /* Fonts.swift in Sources */,
+				4110683C26D7BFD300F6DE42 /* CameraManager.swift in Sources */,
+				4110683426D7BFD300F6DE42 /* Global.swift in Sources */,
+				4110680826D7BFD200F6DE42 /* AVFaceDetectionCamViewModel.swift in Sources */,
+				4110682226D7BFD200F6DE42 /* UIImageView+Ext.swift in Sources */,
+				4110683226D7BFD300F6DE42 /* RequestsHelper.swift in Sources */,
+				4110681226D7BFD200F6DE42 /* CameraCaptureButtonView.swift in Sources */,
+				4110681426D7BFD200F6DE42 /* RequestCameraPermissionView.swift in Sources */,
+				4110681626D7BFD200F6DE42 /* MissingFaceView.swift in Sources */,
+				4110680A26D7BFD200F6DE42 /* CHeaderUILabel.swift in Sources */,
+				4110681A26D7BFD200F6DE42 /* FaceView.swift in Sources */,
+				4110682626D7BFD200F6DE42 /* UIViewController+Ext.swift in Sources */,
+				4110681826D7BFD200F6DE42 /* CameraUIView.swift in Sources */,
+				4110683626D7BFD300F6DE42 /* UIHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411067D226D7BF9B00F6DE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411067C526D7BF9B00F6DE42 /* AVFaceDetectionCam */;
+			targetProxy = 411067D126D7BF9B00F6DE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		411067D826D7BF9B00F6DE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		411067D926D7BF9B00F6DE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		411067DB26D7BF9B00F6DE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E47480909D11C39D6420C4 /* Pods-AVFaceDetectionCam.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5D43NMDU6J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AVFaceDetectionCam/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Apps.AVFaceDetectionCam";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411067DC26D7BF9B00F6DE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A4FC45B2B810F727327A4B /* Pods-AVFaceDetectionCam.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5D43NMDU6J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AVFaceDetectionCam/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Apps.AVFaceDetectionCam";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		411067DE26D7BF9B00F6DE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD43EC0F6A87DFB52555D71 /* Pods-AVFaceDetectionCamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D43NMDU6J;
+				INFOPLIST_FILE = AVFaceDetectionCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Apps.AVFaceDetectionCamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411067DF26D7BF9B00F6DE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C9E7E79C9CFD3B3067403B /* Pods-AVFaceDetectionCamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D43NMDU6J;
+				INFOPLIST_FILE = AVFaceDetectionCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Apps.AVFaceDetectionCamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411067C026D7BF9B00F6DE42 /* Build configuration list for PBXProject "AVFaceDetectionCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411067D826D7BF9B00F6DE42 /* Debug */,
+				411067D926D7BF9B00F6DE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411067DA26D7BF9B00F6DE42 /* Build configuration list for PBXNativeTarget "AVFaceDetectionCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411067DB26D7BF9B00F6DE42 /* Debug */,
+				411067DC26D7BF9B00F6DE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411067DD26D7BF9B00F6DE42 /* Build configuration list for PBXNativeTarget "AVFaceDetectionCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411067DE26D7BF9B00F6DE42 /* Debug */,
+				411067DF26D7BF9B00F6DE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411067BD26D7BF9B00F6DE42 /* Project object */;
+}
